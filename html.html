@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prodaja kuca</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    select {
+      padding: 5px;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #informacije {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Prodaja kuca</h1>
+  
+  <form action="php.php" method="POST">
+    <label for="dropdown">Odaberi kucu:</label>
+    <select id="dropdown" name="kuca">
+      <option value="1">Kuca 1</option>
+      <option value="2">Kuca 2</option>
+      <option value="3">Kuca 3</option>
+    </select>
+    <input type="submit" value="Prikazi informacije">
+  </form>
+
+  <div id="informacije"></div>
+</body>
+</html>

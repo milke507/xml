@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kuće>
+  <kuća>
+    <id>1</id>
+    <naziv>Kuća 1</naziv>
+    <cijena>100000</cijena>
+    <lokacija>Zagreb</lokacija>
+  </kuća>
+  <kuća>
+    <id>2</id>
+    <naziv>Kuća 2</naziv>
+    <cijena>150000</cijena>
+    <lokacija>Split</lokacija>
+  </kuća>
+  <kuća>
+    <id>3</id>
+    <naziv>Kuća 3</naziv>
+    <cijena>200000</cijena>
+    <lokacija>Rijeka</lokacija>
+  </kuća>
+</kuće>
